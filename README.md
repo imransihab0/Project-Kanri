@@ -59,7 +59,7 @@ kanri/
 
 ## Database Setup
 
-1. Create a MySQL database named `blog_platform`
+1. Create a MySQL database named `kanridb`
 2. Execute the following SQL commands:
 
 ```sql
@@ -87,7 +87,7 @@ CREATE TABLE posts (
 
 1. Update database connection settings in `DBUtil.java`:
 ```java
-private static final String URL = "jdbc:mysql://localhost:3306/blog_platform";
+private static final String URL = "jdbc:mysql://localhost:3306/kanridb";
 private static final String USER = "your_username";
 private static final String PASSWORD = "your_password";
 ```
