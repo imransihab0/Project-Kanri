@@ -22,7 +22,7 @@ A Java web application for managing blog posts with role-based access control (C
 ## Project Structure
 
 ```
-blog-platform/
+kanri/
 ├── src/
 │   ├── main/
 │   │   ├── java/
@@ -108,12 +108,12 @@ mvn clean package
 2. Deploy to Tomcat:
 - Stop Tomcat if running
 - Delete old application from `webapps` directory
-- Copy `target/blog-platform.war` to Tomcat's `webapps` directory
+- Copy `target/kanri.war` to Tomcat's `webapps` directory
 - Start Tomcat
 
 3. Access the application:
 ```
-http://localhost:8080/blog-platform/
+http://localhost:8080/kanri/
 ```
 
 ## Features
