@@ -113,7 +113,7 @@ mvn clean package
 
 3. Access the application:
 ```
-http://localhost:8080/blog-platform/
+http://localhost:8080/blog-platform/login
 ```
 
 ## Features
